@@ -1,0 +1,28 @@
+body {
+  margin: 1rem;
+}
+
+#nav-bar {
+  display: inline;
+  flex-direction: column;
+
+  font: 2rem 'Roboto', sans-serif;
+  color: gray;
+}
+
+aside {
+    height: 100%;
+}
+
+aside div + div {
+  margin-top: 3rem;
+}
+
+aside #bottom-aside {
+  flex-direction: row-reverse;
+}
+
+img {
+  display: inline;
+  width: 5rem;
+}
